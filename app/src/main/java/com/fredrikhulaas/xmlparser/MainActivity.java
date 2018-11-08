@@ -22,6 +22,8 @@ public class MainActivity extends Activity {
     private TextView tv6;
     private TextView tv7;
     private TextView tv8;
+    private TextView tv9;
+    private TextView tv10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,8 @@ public class MainActivity extends Activity {
         tv6 = (TextView) findViewById(R.id.tv6);
         tv7 = (TextView) findViewById(R.id.tv7);
         tv8 = (TextView) findViewById(R.id.tv8);
+        tv9 = (TextView) findViewById(R.id.tv9);
+        tv10 = (TextView) findViewById(R.id.tv10);
         parseXml();
     }
 
@@ -49,9 +53,7 @@ public class MainActivity extends Activity {
             parser.setInput(is, null);
             processParsing(parser);
 
-        } catch (XmlPullParserException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (XmlPullParserException | IOException e) {
             e.printStackTrace();
         }
     }
@@ -63,7 +65,7 @@ public class MainActivity extends Activity {
         WeatherData currentWeather = null;
 
         while (eventType != XmlPullParser.END_DOCUMENT) {
-            String tag = null;
+            String tag;
             switch (eventType) {
                 case XmlPullParser.START_TAG:
                     tag = parser.getName();
@@ -101,6 +103,12 @@ public class MainActivity extends Activity {
                     } else if (parser.getName().equalsIgnoreCase("strong")) {
                         tag = parser.nextText();
                         tv8.setText("Body:  " + tag);
+                    } else if (parser.getName().equalsIgnoreCase("precipitation")) {
+                        tag = parser.getAttributeValue(null, "value");
+                        tv9.setText("Precipitation:  " + tag);
+                    } else if (parser.getName().equalsIgnoreCase("symbol")) {
+                        tag = parser.getAttributeValue(null,"name");
+                        tv10.setText("Symbol:  " + tag);
                     }
             }
             eventType = parser.next();
