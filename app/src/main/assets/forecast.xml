@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<weatherdata>
+    <location>
+        <name>Hønefoss</name>
+        <type>City - large town</type>
+        <country>Norway</country>
+        <timezone id="Europe/Oslo" utcoffsetMinutes="60"/>
+        <location geobaseid="84687" geobase="ssr" longitude="10.2564728762303" latitude="60.1680385986918" altitude="75"/>
+    </location>
+    <credit>
+        <!--In order to use the free weather data from yr no, you HAVE to display the following text clearly visible on your web page. The text should be a link to the specified URL.-->
+        <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/ English explanation at http://om.yr.no/verdata/free-weather-data/-->
+        <link url="http://www.yr.no/place/Norway/Buskerud/Ringerike/Hønefoss/" text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK"/>
+    </credit>
+    <links>
+        <link id="xmlSource" url="http://www.yr.no/place/Norway/Buskerud/Ringerike/Hønefoss/forecast.xml"/>
+        <link id="xmlSourceHourByHour" url="http://www.yr.no/place/Norway/Buskerud/Ringerike/Hønefoss/forecast_hour_by_hour.xml"/>
+        <link id="overview" url="http://www.yr.no/place/Norway/Buskerud/Ringerike/Hønefoss/"/>
+        <link id="hourByHour" url="http://www.yr.no/place/Norway/Buskerud/Ringerike/Hønefoss/hour_by_hour"/>
+        <link id="longTermForecast" url="http://www.yr.no/place/Norway/Buskerud/Ringerike/Hønefoss/long"/>
+        <link id="radar" url="http://www.yr.no/place/Norway/Buskerud/Ringerike/Hønefoss/radar.html"/>
+        <link id="nowcast" url="http://www.yr.no/place/Norway/Buskerud/Ringerike/Hønefoss/varsel_nu.xml"/>
+    </links>
+    <meta>
+        <lastupdate>2018-11-08T10:04:00</lastupdate>
+        <nextupdate>2018-11-08T17:00:00</nextupdate>
+    </meta>
+    <sun set="2018-11-08T16:04:53" rise="2018-11-08T07:59:41"/>
+    <forecast>
+        <text>
+            <location name="Hønefoss">
+                <time to="2018-11-08" from="2018-11-08">
+                    <title>Thursday</title>
+                    <body><strong>Østlandet:</strong> Overveiende sørøstlig bris. Litt regn eller yr av og til. Lokal tåke.</body>
+                </time>
+                <time to="2018-11-09" from="2018-11-09">
+                    <title>Friday</title>
+                    <body><strong>Østlandet og Telemark:</strong> Østlig eller skiftende bris. Skyet. Stort sett oppholdsvær. Fra fredag formiddag litt spredt regn sør for Mjøsa. Om kvelden økende nedbør, lite eller ingen nedbør nord for Lillehammer. Lokal tåke.</body>
+                </time>
+                <time to="2018-11-10" from="2018-11-10">
+                    <title>Saturday</title>
+                    <body><strong>Østafjells:</strong> Søraust bris, liten til stiv kuling på kysten, sterk kuling vest for Lindesnes. Skyet, regn. Lokalt mye nedbør i Agder og Telemark. <strong>Østafjells:</strong> Søraust bris, liten til stiv kuling på kysten. Skya, regn. Lokalt mykje nedbør sør for Oslo.</body>
+                </time>
+                <time to="2018-11-10" from="2018-11-10">
+                    <title>Saturday</title>
+                    <body><strong>Østafjells:</strong> Søraust bris, liten til stiv kuling på kysten, sterk kuling vest for Lindesnes. Skyet, regn. Lokalt mye nedbør i Agder og Telemark. <strong>Østafjells:</strong> Søraust bris, liten til stiv kuling på kysten. Skya, regn. Lokalt mykje nedbør sør for Oslo.</body>
+                </time>
+            </location>
+        </text>
+        <tabular>
+            <time to="2018-11-08T18:00:00" from="2018-11-08T12:00:00" period="2">
+                <!-- Valid from 2018-11-08T12:00:00 to 2018-11-08T18:00:00 -->
+                <symbol name="Light rain" var="46" numberEx="46" number="9"/>
+                <precipitation maxvalue="0.8" minvalue="0.3" value="0.5"/>
+                <!-- Valid at 2018-11-08T12:00:00 -->
+                <windDirection name="Northwest" code="NW" deg="309.3"/>
+                <windSpeed name="Light air" mps="0.9"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1019.0" unit="hPa"/>
+            </time>
+            <time to="2018-11-09T00:00:00" from="2018-11-08T18:00:00" period="3">
+                <!-- Valid from 2018-11-08T18:00:00 to 2018-11-09T00:00:00 -->
+                <symbol name="Fog" var="15" numberEx="15" number="15"/>
+                <precipitation maxvalue="0.5" minvalue="0" value="0"/>
+                <!-- Valid at 2018-11-08T18:00:00 -->
+                <windDirection name="Northwest" code="NW" deg="305.7"/>
+                <windSpeed name="Light air" mps="0.7"/>
+                <temperature value="6" unit="celsius"/>
+                <pressure value="1019.6" unit="hPa"/>
+            </time>
+            <time to="2018-11-09T06:00:00" from="2018-11-09T00:00:00" period="0">
+                <!-- Valid from 2018-11-09T00:00:00 to 2018-11-09T06:00:00 -->
+                <symbol name="Fog" var="15" numberEx="15" number="15"/>
+                <precipitation maxvalue="0.1" minvalue="0" value="0"/>
+                <!-- Valid at 2018-11-09T00:00:00 -->
+                <windDirection name="Northwest" code="NW" deg="320.9"/>
+                <windSpeed name="Light air" mps="0.9"/>
+                <temperature value="6" unit="celsius"/>
+                <pressure value="1021.1" unit="hPa"/>
+            </time>
+            <time to="2018-11-09T12:00:00" from="2018-11-09T06:00:00" period="1">
+                <!-- Valid from 2018-11-09T06:00:00 to 2018-11-09T12:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-09T06:00:00 -->
+                <windDirection name="North" code="N" deg="5.9"/>
+                <windSpeed name="Light air" mps="0.8"/>
+                <temperature value="6" unit="celsius"/>
+                <pressure value="1021.5" unit="hPa"/>
+            </time>
+            <time to="2018-11-09T18:00:00" from="2018-11-09T12:00:00" period="2">
+                <!-- Valid from 2018-11-09T12:00:00 to 2018-11-09T18:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation maxvalue="0.5" minvalue="0" value="0"/>
+                <!-- Valid at 2018-11-09T12:00:00 -->
+                <windDirection name="North-northwest" code="NNW" deg="326.5"/>
+                <windSpeed name="Light air" mps="1.5"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1021.7" unit="hPa"/>
+            </time>
+            <time to="2018-11-10T00:00:00" from="2018-11-09T18:00:00" period="3">
+                <!-- Valid from 2018-11-09T18:00:00 to 2018-11-10T00:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation maxvalue="0.6" minvalue="0" value="0"/>
+                <!-- Valid at 2018-11-09T18:00:00 -->
+                <windDirection name="North-northeast" code="NNE" deg="16.7"/>
+                <windSpeed name="Light air" mps="1.3"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1019.1" unit="hPa"/>
+            </time>
+            <time to="2018-11-10T06:00:00" from="2018-11-10T00:00:00" period="0">
+                <!-- Valid from 2018-11-10T00:00:00 to 2018-11-10T06:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation maxvalue="2.8" minvalue="0.9" value="1.8"/>
+                <!-- Valid at 2018-11-10T00:00:00 -->
+                <windDirection name="North-northeast" code="NNE" deg="12.9"/>
+                <windSpeed name="Light air" mps="1.3"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1016.1" unit="hPa"/>
+            </time>
+            <time to="2018-11-10T12:00:00" from="2018-11-10T06:00:00" period="1">
+                <!-- Valid from 2018-11-10T06:00:00 to 2018-11-10T12:00:00 -->
+                <symbol name="Light rain" var="46" numberEx="46" number="9"/>
+                <precipitation maxvalue="1.4" minvalue="0.3" value="0.8"/>
+                <!-- Valid at 2018-11-10T06:00:00 -->
+                <windDirection name="East-southeast" code="ESE" deg="118.4"/>
+                <windSpeed name="Light air" mps="1.5"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1013.1" unit="hPa"/>
+            </time>
+            <time to="2018-11-10T18:00:00" from="2018-11-10T12:00:00" period="2">
+                <!-- Valid from 2018-11-10T12:00:00 to 2018-11-10T18:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation maxvalue="2.4" minvalue="0.7" value="1.5"/>
+                <!-- Valid at 2018-11-10T12:00:00 -->
+                <windDirection name="Southeast" code="SE" deg="133.6"/>
+                <windSpeed name="Light breeze" mps="2.1"/>
+                <temperature value="8" unit="celsius"/>
+                <pressure value="1012.4" unit="hPa"/>
+            </time>
+            <time to="2018-11-11T00:00:00" from="2018-11-10T18:00:00" period="3">
+                <!-- Valid from 2018-11-10T18:00:00 to 2018-11-11T00:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation maxvalue="7.1" minvalue="2.1" value="4.6"/>
+                <!-- Valid at 2018-11-10T18:00:00 -->
+                <windDirection name="South-southeast" code="SSE" deg="161.5"/>
+                <windSpeed name="Light air" mps="0.8"/>
+                <temperature value="8" unit="celsius"/>
+                <pressure value="1010.7" unit="hPa"/>
+            </time>
+            <time to="2018-11-11T07:00:00" from="2018-11-11T01:00:00" period="0">
+                <!-- Valid from 2018-11-11T01:00:00 to 2018-11-11T07:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="4.2"/>
+                <!-- Valid at 2018-11-11T01:00:00 -->
+                <windDirection name="South-southeast" code="SSE" deg="157.1"/>
+                <windSpeed name="Light breeze" mps="2.4"/>
+                <temperature value="8" unit="celsius"/>
+                <pressure value="1011.7" unit="hPa"/>
+            </time>
+            <time to="2018-11-11T13:00:00" from="2018-11-11T07:00:00" period="1">
+                <!-- Valid from 2018-11-11T07:00:00 to 2018-11-11T13:00:00 -->
+                <symbol name="Heavy rain" var="10" numberEx="10" number="10"/>
+                <precipitation value="5.7"/>
+                <!-- Valid at 2018-11-11T07:00:00 -->
+                <windDirection name="East-southeast" code="ESE" deg="115.9"/>
+                <windSpeed name="Gentle breeze" mps="4.4"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1011.1" unit="hPa"/>
+            </time>
+            <time to="2018-11-11T19:00:00" from="2018-11-11T13:00:00" period="2">
+                <!-- Valid from 2018-11-11T13:00:00 to 2018-11-11T19:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="3.7"/>
+                <!-- Valid at 2018-11-11T13:00:00 -->
+                <windDirection name="East-southeast" code="ESE" deg="118.4"/>
+                <windSpeed name="Gentle breeze" mps="4.6"/>
+                <temperature value="9" unit="celsius"/>
+                <pressure value="1012.2" unit="hPa"/>
+            </time>
+            <time to="2018-11-12T01:00:00" from="2018-11-11T19:00:00" period="3">
+                <!-- Valid from 2018-11-11T19:00:00 to 2018-11-12T01:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="3.6"/>
+                <!-- Valid at 2018-11-11T19:00:00 -->
+                <windDirection name="East-southeast" code="ESE" deg="108.5"/>
+                <windSpeed name="Gentle breeze" mps="4.4"/>
+                <temperature value="8" unit="celsius"/>
+                <pressure value="1012.8" unit="hPa"/>
+            </time>
+            <time to="2018-11-12T07:00:00" from="2018-11-12T01:00:00" period="0">
+                <!-- Valid from 2018-11-12T01:00:00 to 2018-11-12T07:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="4.2"/>
+                <!-- Valid at 2018-11-12T01:00:00 -->
+                <windDirection name="East" code="E" deg="81.6"/>
+                <windSpeed name="Gentle breeze" mps="4.0"/>
+                <temperature value="6" unit="celsius"/>
+                <pressure value="1013.7" unit="hPa"/>
+            </time>
+            <time to="2018-11-12T13:00:00" from="2018-11-12T07:00:00" period="1">
+                <!-- Valid from 2018-11-12T07:00:00 to 2018-11-12T13:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="3.2"/>
+                <!-- Valid at 2018-11-12T07:00:00 -->
+                <windDirection name="East" code="E" deg="100.2"/>
+                <windSpeed name="Gentle breeze" mps="3.7"/>
+                <temperature value="6" unit="celsius"/>
+                <pressure value="1014.4" unit="hPa"/>
+            </time>
+            <time to="2018-11-12T19:00:00" from="2018-11-12T13:00:00" period="2">
+                <!-- Valid from 2018-11-12T13:00:00 to 2018-11-12T19:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="2.5"/>
+                <!-- Valid at 2018-11-12T13:00:00 -->
+                <windDirection name="East-southeast" code="ESE" deg="111.5"/>
+                <windSpeed name="Gentle breeze" mps="3.4"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1014.9" unit="hPa"/>
+            </time>
+            <time to="2018-11-13T01:00:00" from="2018-11-12T19:00:00" period="3">
+                <!-- Valid from 2018-11-12T19:00:00 to 2018-11-13T01:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="2.5"/>
+                <!-- Valid at 2018-11-12T19:00:00 -->
+                <windDirection name="South-southeast" code="SSE" deg="148.0"/>
+                <windSpeed name="Light breeze" mps="2.6"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1015.0" unit="hPa"/>
+            </time>
+            <time to="2018-11-13T07:00:00" from="2018-11-13T01:00:00" period="0">
+                <!-- Valid from 2018-11-13T01:00:00 to 2018-11-13T07:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="2.8"/>
+                <!-- Valid at 2018-11-13T01:00:00 -->
+                <windDirection name="South-southeast" code="SSE" deg="153.5"/>
+                <windSpeed name="Light breeze" mps="2.4"/>
+                <temperature value="6" unit="celsius"/>
+                <pressure value="1013.6" unit="hPa"/>
+            </time>
+            <time to="2018-11-13T13:00:00" from="2018-11-13T07:00:00" period="1">
+                <!-- Valid from 2018-11-13T07:00:00 to 2018-11-13T13:00:00 -->
+                <symbol name="Rain" var="09" numberEx="9" number="9"/>
+                <precipitation value="2.7"/>
+                <!-- Valid at 2018-11-13T07:00:00 -->
+                <windDirection name="Southeast" code="SE" deg="143.8"/>
+                <windSpeed name="Light breeze" mps="2.5"/>
+                <temperature value="5" unit="celsius"/>
+                <pressure value="1010.8" unit="hPa"/>
+            </time>
+            <time to="2018-11-13T19:00:00" from="2018-11-13T13:00:00" period="2">
+                <!-- Valid from 2018-11-13T13:00:00 to 2018-11-13T19:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-13T13:00:00 -->
+                <windDirection name="West-southwest" code="WSW" deg="246.8"/>
+                <windSpeed name="Light breeze" mps="2.0"/>
+                <temperature value="7" unit="celsius"/>
+                <pressure value="1010.6" unit="hPa"/>
+            </time>
+            <time to="2018-11-14T01:00:00" from="2018-11-13T19:00:00" period="3">
+                <!-- Valid from 2018-11-13T19:00:00 to 2018-11-14T01:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-13T19:00:00 -->
+                <windDirection name="East" code="E" deg="101.0"/>
+                <windSpeed name="Light air" mps="1.3"/>
+                <temperature value="5" unit="celsius"/>
+                <pressure value="1010.2" unit="hPa"/>
+            </time>
+            <time to="2018-11-14T07:00:00" from="2018-11-14T01:00:00" period="0">
+                <!-- Valid from 2018-11-14T01:00:00 to 2018-11-14T07:00:00 -->
+                <symbol name="Partly cloudy" var="03n" numberEx="3" number="3"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-14T01:00:00 -->
+                <windDirection name="West-northwest" code="WNW" deg="301.6"/>
+                <windSpeed name="Light air" mps="1.5"/>
+                <temperature value="3" unit="celsius"/>
+                <pressure value="1011.8" unit="hPa"/>
+            </time>
+            <time to="2018-11-14T13:00:00" from="2018-11-14T07:00:00" period="1">
+                <!-- Valid from 2018-11-14T07:00:00 to 2018-11-14T13:00:00 -->
+                <symbol name="Partly cloudy" var="03d" numberEx="3" number="3"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-14T07:00:00 -->
+                <windDirection name="Northwest" code="NW" deg="316.1"/>
+                <windSpeed name="Light breeze" mps="1.7"/>
+                <temperature value="0" unit="celsius"/>
+                <pressure value="1014.8" unit="hPa"/>
+            </time>
+            <time to="2018-11-14T19:00:00" from="2018-11-14T13:00:00" period="2">
+                <!-- Valid from 2018-11-14T13:00:00 to 2018-11-14T19:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-14T13:00:00 -->
+                <windDirection name="South-southwest" code="SSW" deg="201.2"/>
+                <windSpeed name="Light air" mps="1.3"/>
+                <temperature value="5" unit="celsius"/>
+                <pressure value="1018.1" unit="hPa"/>
+            </time>
+            <time to="2018-11-15T01:00:00" from="2018-11-14T19:00:00" period="3">
+                <!-- Valid from 2018-11-14T19:00:00 to 2018-11-15T01:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-14T19:00:00 -->
+                <windDirection name="South" code="S" deg="186.2"/>
+                <windSpeed name="Light air" mps="1.5"/>
+                <temperature value="3" unit="celsius"/>
+                <pressure value="1019.0" unit="hPa"/>
+            </time>
+            <time to="2018-11-15T07:00:00" from="2018-11-15T01:00:00" period="0">
+                <!-- Valid from 2018-11-15T01:00:00 to 2018-11-15T07:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-15T01:00:00 -->
+                <windDirection name="Northwest" code="NW" deg="305.9"/>
+                <windSpeed name="Light air" mps="1.5"/>
+                <temperature value="2" unit="celsius"/>
+                <pressure value="1020.2" unit="hPa"/>
+            </time>
+            <time to="2018-11-15T13:00:00" from="2018-11-15T07:00:00" period="1">
+                <!-- Valid from 2018-11-15T07:00:00 to 2018-11-15T13:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-15T07:00:00 -->
+                <windDirection name="West-southwest" code="WSW" deg="251.5"/>
+                <windSpeed name="Light air" mps="1.4"/>
+                <temperature value="2" unit="celsius"/>
+                <pressure value="1019.6" unit="hPa"/>
+            </time>
+            <time to="2018-11-15T19:00:00" from="2018-11-15T13:00:00" period="2">
+                <!-- Valid from 2018-11-15T13:00:00 to 2018-11-15T19:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-15T13:00:00 -->
+                <windDirection name="South" code="S" deg="169.2"/>
+                <windSpeed name="Light air" mps="1.1"/>
+                <temperature value="6" unit="celsius"/>
+                <pressure value="1021.1" unit="hPa"/>
+            </time>
+            <time to="2018-11-16T01:00:00" from="2018-11-15T19:00:00" period="3">
+                <!-- Valid from 2018-11-15T19:00:00 to 2018-11-16T01:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-15T19:00:00 -->
+                <windDirection name="East-southeast" code="ESE" deg="109.2"/>
+                <windSpeed name="Light air" mps="1.2"/>
+                <temperature value="4" unit="celsius"/>
+                <pressure value="1020.6" unit="hPa"/>
+            </time>
+            <time to="2018-11-16T07:00:00" from="2018-11-16T01:00:00" period="0">
+                <!-- Valid from 2018-11-16T01:00:00 to 2018-11-16T07:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-16T01:00:00 -->
+                <windDirection name="South" code="S" deg="182.6"/>
+                <windSpeed name="Light air" mps="1.3"/>
+                <temperature value="4" unit="celsius"/>
+                <pressure value="1020.2" unit="hPa"/>
+            </time>
+            <time to="2018-11-16T13:00:00" from="2018-11-16T07:00:00" period="1">
+                <!-- Valid from 2018-11-16T07:00:00 to 2018-11-16T13:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-16T07:00:00 -->
+                <windDirection name="South-southwest" code="SSW" deg="201.1"/>
+                <windSpeed name="Light air" mps="1.3"/>
+                <temperature value="3" unit="celsius"/>
+                <pressure value="1019.6" unit="hPa"/>
+            </time>
+            <time to="2018-11-16T19:00:00" from="2018-11-16T13:00:00" period="2">
+                <!-- Valid from 2018-11-16T13:00:00 to 2018-11-16T19:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-16T13:00:00 -->
+                <windDirection name="West-southwest" code="WSW" deg="240.3"/>
+                <windSpeed name="Light breeze" mps="2.1"/>
+                <temperature value="6" unit="celsius"/>
+                <pressure value="1019.3" unit="hPa"/>
+            </time>
+            <time to="2018-11-17T01:00:00" from="2018-11-16T19:00:00" period="3">
+                <!-- Valid from 2018-11-16T19:00:00 to 2018-11-17T01:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-16T19:00:00 -->
+                <windDirection name="South-southwest" code="SSW" deg="196.0"/>
+                <windSpeed name="Light breeze" mps="1.8"/>
+                <temperature value="5" unit="celsius"/>
+                <pressure value="1020.3" unit="hPa"/>
+            </time>
+            <time to="2018-11-17T07:00:00" from="2018-11-17T01:00:00" period="0">
+                <!-- Valid from 2018-11-17T01:00:00 to 2018-11-17T07:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-17T01:00:00 -->
+                <windDirection name="North-northeast" code="NNE" deg="27.0"/>
+                <windSpeed name="Light breeze" mps="1.7"/>
+                <temperature value="3" unit="celsius"/>
+                <pressure value="1024.3" unit="hPa"/>
+            </time>
+            <time to="2018-11-17T13:00:00" from="2018-11-17T07:00:00" period="1">
+                <!-- Valid from 2018-11-17T07:00:00 to 2018-11-17T13:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-17T07:00:00 -->
+                <windDirection name="South-southwest" code="SSW" deg="202.1"/>
+                <windSpeed name="Light breeze" mps="1.7"/>
+                <temperature value="3" unit="celsius"/>
+                <pressure value="1026.3" unit="hPa"/>
+            </time>
+            <time to="2018-11-17T19:00:00" from="2018-11-17T13:00:00" period="2">
+                <!-- Valid from 2018-11-17T13:00:00 to 2018-11-17T19:00:00 -->
+                <symbol name="Cloudy" var="04" numberEx="4" number="4"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2018-11-17T13:00:00 -->
+                <windDirection name="Southwest" code="SW" deg="215.4"/>
+                <windSpeed name="Light air" mps="1.2"/>
+                <temperature value="5" unit="celsius"/>
+                <pressure value="1027.7" unit="hPa"/>
+            </time>
+        </tabular>
+    </forecast>
+    <observations>
+        <weatherstation name="Hønefoss (Høyby)" source="Meteorologisk Institutt" lon="10.24780" lat="60.16650" distance="509" sttype="eklima" stno="20301">
+            <temperature value="6.1" unit="celsius" time="2018-11-08T09:00:00Z"/>
+            <windDirection name="Northwest" code="NW" deg="319.0" time="2018-11-08T09:00:00Z"/>
+            <windSpeed name="Light air" mps="1.5" time="2018-11-08T09:00:00Z"/>
+        </weatherstation>
+        <weatherstation name="Hønefoss (Hverven)" source="Meteorologisk Institutt" lon="10.26620" lat="60.14030" distance="3132" sttype="eklima" stno="20280">
+            <temperature value="6.4" unit="celsius" time="2018-11-08T10:00:00Z"/>
+        </weatherstation>
+        <weatherstation name="Gran" source="Meteorologisk Institutt" lon="10.55920" lat="60.35580" distance="26741" sttype="eklima" stno="20540">
+            <temperature value="5.5" unit="celsius" time="2018-11-08T10:00:00Z"/>
+        </weatherstation>
+    </observations>
+</weatherdata>
