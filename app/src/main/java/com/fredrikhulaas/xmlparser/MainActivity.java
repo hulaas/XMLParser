@@ -20,6 +20,8 @@ public class MainActivity extends Activity {
     private TextView tv4;
     private TextView tv5;
     private TextView tv6;
+    private TextView tv7;
+    private TextView tv8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,8 @@ public class MainActivity extends Activity {
         tv4 = (TextView) findViewById(R.id.tv4);
         tv5 = (TextView) findViewById(R.id.tv5);
         tv6 = (TextView) findViewById(R.id.tv6);
+        tv7 = (TextView) findViewById(R.id.tv7);
+        tv8 = (TextView) findViewById(R.id.tv8);
         parseXml();
     }
 
@@ -84,11 +88,19 @@ public class MainActivity extends Activity {
                     } else if (parser.getName().equalsIgnoreCase("windDirection")) {
                         tag = parser.getAttributeValue(null,"name");
                         tv4.setText("WindDirection:  " + tag);
+                        weather = parser.getAttributeValue(null, "name");
+                    } else if (parser.getName().equalsIgnoreCase("windSpeed")) {
+                        tag = parser.getAttributeValue(null, "name");
+                        weather = parser.getAttributeValue(null,"mps");
+                        tv7.setText("WindSpeed:  " + tag + " " + weather +" mps");
                     } else if (parser.getName().equalsIgnoreCase("tabular")) {
                         parser.nextTag();
                         tag = parser.getAttributeValue(null,"from");
                         weather = parser.getAttributeValue(null,"to");
                         tv6.setText("Time from: " + tag + " " + "Time to: " + weather);
+                    } else if (parser.getName().equalsIgnoreCase("strong")) {
+                        tag = parser.nextText();
+                        tv8.setText("Body:  " + tag);
                     }
             }
             eventType = parser.next();
